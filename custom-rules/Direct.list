@@ -1,0 +1,15 @@
+#需直连的网站
+DOMAIN-SUFFIX,138.com
+DOMAIN-SUFFIX,nga.178.com
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,koude.win
+DOMAIN-SUFFIX,longtenghuaxia.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,zhangle.com
+DOMAIN-SUFFIX,zhihu.com
+ ##平安银行
+DOMAIN-SUFFIX,supwisdom.com
+ ##雪球
+DOMAIN-SUFFIX,xueqiu.com
+ip-cidr, 47.75.231.220/32
