@@ -46,7 +46,9 @@ jobs:
     - name: Decode and Update
       if: env.no_update == 'false'
       run: |
+        # 保存当前哈希值供下次比较
         mv gfwlist/new_hash.txt gfwlist/hash.txt
+        # Base64 解码
         base64 -d gfwlist64.txt > gfwlist/gfwlist.txt
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
