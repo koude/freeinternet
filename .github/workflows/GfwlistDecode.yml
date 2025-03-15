@@ -23,22 +23,19 @@ jobs:
     - name: Calculate file hash
       id: file_hash
       run: |
-        # 计算目标文件的 SHA256 哈希
-        sha256sum gfwlist64.txt | awk '{print $1}' > current_hash.txt
+        mkdir -p gfwlist
+        sha256sum gfwlist64.txt | awk '{print $1}' > gfwlist/new_hash.txt
 
     # Step 4: 检查是否有更新
     - name: Compare hashes
       id: hash_check
       run: |
-        # 如果 last_hash.txt 不存在，创建一个空文件
-        if [ ! -f hash.txt ]; then
-          touch hash.txt
+        mkdir -p gfwlist
+        if [ ! -f gfwlist/hash.txt ]; then
+          touch gfwlist/hash.txt
         fi
-        # 获取上次保存的哈希值
-        LAST_HASH=$(cat hash.txt)
-        # 获取当前文件的哈希值
-        CURRENT_HASH=$(cat current_hash.txt)
-        # 比较哈希值
+        LAST_HASH=$(cat gfwlist/hash.txt)
+        CURRENT_HASH=$(cat gfwlist/new_hash.txt)
         if [ "$LAST_HASH" = "$CURRENT_HASH" ]; then
           echo "no_update=true" >> $GITHUB_ENV
         else
@@ -49,13 +46,10 @@ jobs:
     - name: Decode and Update
       if: env.no_update == 'false'
       run: |
-        # 保存当前哈希值供下次比较
-        mv current_hash.txt hash.txt
-        # Base64 解码
-        base64 -d gfwlist64.txt > gfwlist.txt
-        # 提交更新到当前仓库
+        mv gfwlist/new_hash.txt gfwlist/hash.txt
+        base64 -d gfwlist64.txt > gfwlist/gfwlist.txt
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add gfwlist.txt hash.txt
+        git add gfwlist/gfwlist.txt gfwlist/hash.txt
         git commit -m "Update decoded file: $(date)"
         git push origin HEAD
