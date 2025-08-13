@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 4cpyk1/g88adJwJjbi0KvA
+! Checksum: vTp9CJKtX2n9cKomEg33Mg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 13 Aug 2025 06:11:16 +0000
+! Last Modified: Wed, 13 Aug 2025 07:14:06 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -3742,6 +3742,7 @@ guruonline.hk
 .gyatsostudio.com
 
 !--------------------HH-------------------------
+||herominers.com
 ||hinet.net
 ||hindustantimes.com
 ||hanime1.me
