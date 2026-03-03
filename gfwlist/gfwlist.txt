@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: Ua+4G4m73CR5Vnhz1gng6g
+! Checksum: zvd0KIWDGimWOBuUNUwxQw
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 02 Mar 2026 11:25:14 +0000
+! Last Modified: Tue, 03 Mar 2026 14:30:56 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1191,6 +1191,7 @@ iipdigital.usembassy.gov
 ||9bis.net
 ||9news.com.au
 !--------------------AA-------------------------
+||arena.ai
 ||akile.io
 ||aljazeera.net
 ||anuneko.com
@@ -3968,6 +3969,7 @@ iipdigital.usembassy.gov
 ||vtunnel.com
 ||vuku.cc
 !--------------------WW-------------------------
+||wispbyte.com
 ||walletconnect.org
 ||wallzhihu.com
 ||wikis.tw
