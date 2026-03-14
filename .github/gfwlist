@@ -1,0 +1,71 @@
+name: Gfwlist to Pure Domain List
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时运行一次
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: 检出当前仓库
+    - name: Checkout this repository
+      uses: actions/checkout@v4
+
+    # Step 2: 创建目录并下载目标文件到指定位置
+    - name: Fetch target file from another repository
+      run: |
+        # 确保 gfwlist 目录存在
+        mkdir -p gfwlist
+        # 直接将官方文件下载为 gfwlist-encode.txt
+        curl -o gfwlist/gfwlist-encode.txt https://raw.githubusercontent.com/gfwlist/gfwlist/refs/heads/master/gfwlist.txt
+
+    # Step 3: 计算文件的哈希值
+    - name: Calculate file hash
+      id: file_hash
+      run: |
+        sha256sum gfwlist/gfwlist-encode.txt | awk '{print $1}' > gfwlist/new_hash.txt
+
+    # Step 4: 检查是否有更新
+    - name: Compare hashes
+      id: hash_check
+      run: |
+        if [ ! -f gfwlist/hash.txt ]; then
+          touch gfwlist/hash.txt
+        fi
+        LAST_HASH=$(cat gfwlist/hash.txt)
+        CURRENT_HASH=$(cat gfwlist/new_hash.txt)
+        if [ "$LAST_HASH" = "$CURRENT_HASH" ]; then
+          echo "no_update=true" >> $GITHUB_ENV
+        else
+          echo "no_update=false" >> $GITHUB_ENV
+        fi
+
+    # Step 5: 如果文件有更新，执行解码并提取纯域名
+    - name: Decode, Clean and Update
+      if: env.no_update == 'false'
+      run: |
+        # 1. 保存当前哈希值供下次比较 (覆盖旧的 hash.txt)
+        mv gfwlist/new_hash.txt gfwlist/hash.txt
+        
+        # 2. Base64 解码，保存为 gfwlist-decode.txt
+        base64 -d gfwlist/gfwlist-encode.txt > gfwlist/gfwlist-decode.txt
+        
+        # 3. 核心清洗逻辑 (从 decode 文件读取，处理后输出到 gfw.list)
+        cat gfwlist/gfwlist-decode.txt | \
+          grep -v -E "^(!|@@|\[|$)" | \
+          sed -e 's/^||//' -e 's/^|https\?:\/\///' -e 's/^\.//' -e 's/^|//' | \
+          awk -F'[/^]' '{print $1}' | \
+          grep -E "^[a-zA-Z0-9.-]+\.[a-zA-Z]+$" | \
+          sort -u > gfwlist/gfw.list
+          
+        # 4. 配置 Git 并提交推送到 GitHub
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # 精确添加你要求的这四个文件
+        git add gfwlist/gfwlist-encode.txt gfwlist/gfwlist-decode.txt gfwlist/hash.txt gfwlist/gfw.list
+        git commit -m "Auto update and extract pure domains: $(date)"
+        git push origin HEAD
