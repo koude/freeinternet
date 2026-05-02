@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: iSGCi8IhYylNiecNwVfSdg
+! Checksum: Hr88kG0ypeX/gqapLAaPVQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Thu, 16 Apr 2026 10:19:54 +0000
+! Last Modified: Sat, 02 May 2026 11:49:50 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -224,7 +224,6 @@
 ||shiksha.com
 ||slacker.com
 ||sm-miracle.com
-||soylentnews.org
 ||spotify.com
 ||spreadshirt.es
 ||springboardplatform.com
@@ -630,7 +629,7 @@ www.aolnews.com
 !!---Google---
 ||google.dev
 ||ai.studio
-||chromium.org
+||issues.chromium.org
 ||goog
 ||gle
 ||google
@@ -1186,6 +1185,7 @@ iipdigital.usembassy.gov
 ||9bis.net
 ||9news.com.au
 !--------------------AA-------------------------
+||asiasociety.org
 ||avistaz.to
 ||annas-archive.gd
 ||annas-archive.gl
@@ -1356,6 +1356,7 @@ iipdigital.usembassy.gov
 !--boxun.azurewebsites.net doesn't exist.
 ||boxun*.azurewebsites.net
 !--------------------BB-------------------------
+||bellingcat.com
 ||bittorrent.com
 ||help.byspotify.com
 ||bitbaby.com
@@ -1868,6 +1869,7 @@ iipdigital.usembassy.gov
 ||dynawebinc.com
 ||dysfz.cc
 !--------------------EE-------------------------
+||app.element.io
 ||economist.com
 ||e621.net
 ||edx-cdn.org
@@ -2588,6 +2590,7 @@ iipdigital.usembassy.gov
 ||kzaobao.com
 ||kzeng.info
 !--------------------LL-------------------------
+||lantern.io
 ||lovart.ai
 ||library-access.sk
 ||linux.do
@@ -3211,6 +3214,9 @@ iipdigital.usembassy.gov
 ||quitccp.org
 |http://quran.com
 !--------------------RR-------------------------
+||rawstory.com
+||recordedfuture.com
+||roblox.com
 ||radiojar.com
 ||radio.co
 ||rustdesk.com
@@ -3301,6 +3307,7 @@ iipdigital.usembassy.gov
 ||rutracker.org
 |http://rxhj.net
 !--------------------SS-------------------------
+||softether.co.jp
 ||shitjournal.org
 ||spacex.com
 ||stephaniered.com
@@ -3536,6 +3543,8 @@ iipdigital.usembassy.gov
 ||sylfoundation.org
 ||syncback.com
 !--------------------TT-------------------------
+||techbang.com
+||thinkchina.sg
 ||tor.eff.org
 ||tails.net
 ||bbc.pdn.tritondigital.com
@@ -3830,6 +3839,7 @@ iipdigital.usembassy.gov
 ||contests.twilio.com
 ||typora.io
 !--------------------UU-------------------------
+||upsangel.com
 ||sbti.unun.dev
 ||uniswap.org
 ||up.audio
