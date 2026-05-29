@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: bj4VglYj5gCEN4h/DKrAMw
+! Checksum: BvG3NuUqlhXTiPpsnHz2cA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Mon, 25 May 2026 04:46:31 +0000
+! Last Modified: Fri, 29 May 2026 03:59:07 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -372,7 +372,6 @@
 ||line-scdn.net
 ||i.lithium.com
 ||cloud.mail.ru
-||cdn-images.mailchimp.com
 ||mastodon.cloud
 ||mastodon.host
 ||mastodon.social
@@ -1520,7 +1519,6 @@ iipdigital.usembassy.gov
 !--------------------CC-------------------------
 ||chonglangtv.org
 ||ctinsider.com
-||cnbc.com
 ||cia.gov
 ||claude.com
 ||www.clashverge.dev
@@ -1846,6 +1844,7 @@ iipdigital.usembassy.gov
 ||dougscripts.com
 ||doujincafe.com
 |https://bartender.dowjones.com
+||dowjones.io
 ||dpp.org.tw
 ||dpr.info
 ||dragonsprings.org
@@ -3481,7 +3480,6 @@ iipdigital.usembassy.gov
 ||sockslist.net
 |http://socrec.org
 ||softether.org
-||softether-download.com
 ||cdn.softlayer.net
 ||sogclub.com
 ||sohcradio.com
@@ -4229,7 +4227,6 @@ iipdigital.usembassy.gov
 |http://yeyeclub.com
 ||yhcw.net
 ||yibaochina.com
-||yidio.com
 ||s.yimg.com
 ||yipub.com
 ||yizhihongxing.com
@@ -4303,6 +4300,10 @@ iipdigital.usembassy.gov
 ||zuola.com
 ||zvereff.com
 ||zyxel.com
+||veed.io
+||gencraft.com
+||hiddify.com
+||as.mr
 !##############General List End#################
 !###########Supplemental List Start#############
 !#############Supplemental List End#############
