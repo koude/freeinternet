@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: E89mHym5V4Um+2VKUfGOYg
+! Checksum: AuZ+DVzBt4YiL8TGWswPTA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 19 Jun 2026 04:15:23 +0000
+! Last Modified: Sat, 27 Jun 2026 13:02:45 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -98,6 +98,7 @@
 ||funkyimg.com
 ||fxnetworks.com
 ||g-area.org
+||get.dappcdn.com
 ||gettyimages.ca
 ||gettyimages.us
 ||gettyimages.hk
@@ -1138,6 +1139,9 @@ www.aolnews.com
 ||teco-mo.org
 ||kinmen.org.tw
 !!---USA---
+||spaceforce.mil
+||airuniversity.af.edu
+||supremecourt.gov
 ||americorps.gov
 ||dma.mil
 ||jpl.nasa.gov
@@ -1197,6 +1201,7 @@ iipdigital.usembassy.gov
 ||yahoo.com.hk
 ||yahoo.com
 !------------------Numerics---------------------
+||18mh.net
 ||24hbook.com
 ||996.icu
 ||ipfs.4everland.io
@@ -1442,6 +1447,7 @@ iipdigital.usembassy.gov
 !--boxun.azurewebsites.net doesn't exist.
 ||boxun*.azurewebsites.net
 !--------------------BB-------------------------
+||bilinovel.com
 ||boomplay.com
 ||bleepingcomputer.com
 ||bellingcat.com
@@ -1810,6 +1816,7 @@ iipdigital.usembassy.gov
 ||crackle.com
 ||crazyshit.com
 ||crchina.org
+||creader.com
 ||creaders.net
 ||cristyli.com
 ||croxyproxy.com
@@ -2201,6 +2208,8 @@ iipdigital.usembassy.gov
 ||fxcm-chinese.com
 ||f95zone.to
 !--------------------GG-------------------------
+||gate.com
+||guangming.com.my
 ||g.ai
 ||gmgn.ai
 ||grokipedia.com
@@ -2338,6 +2347,7 @@ iipdigital.usembassy.gov
 ||gunsamerica.com
 |http://gvlib.com
 !--------------------HH-------------------------
+||hkong.hk
 ||hive.blog
 ||v2.hysteria.network
 ||hembed.com
@@ -2641,6 +2651,7 @@ iipdigital.usembassy.gov
 ||juziyue.com
 ||cdn.jwplayer.com
 !--------------------KK-------------------------
+||kfor.com
 ||kathmandupost.com
 ||kingkong.com.tw
 ||kanald.com.tr
@@ -2782,6 +2793,7 @@ iipdigital.usembassy.gov
 ||lzmtnews.org
 ||leonardo.ai
 !--------------------MM-------------------------
+||mhwindow.org
 ||mas.to
 ||mjj.today
 ||mediamatters.org
@@ -3125,6 +3137,8 @@ iipdigital.usembassy.gov
 ||ow.ly
 ||ozvoice.org
 !--------------------PP-------------------------
+||perma.cc
+||pcgamesn.com
 ||penguin.com.au
 ||prompthero.com
 ||pdst.fm
@@ -3332,6 +3346,7 @@ iipdigital.usembassy.gov
 ||quitccp.org
 |http://quran.com
 !--------------------RR-------------------------
+||restofworld.org
 ||rts.ch
 ||rawstory.com
 ||recordedfuture.com
@@ -3668,6 +3683,9 @@ iipdigital.usembassy.gov
 ||syncback.com
 ||sotwe.com
 !--------------------TT-------------------------
+||theintercept.com
+||trtworld.com
+||twstalker.com
 ||tvdy1.com
 ||tgstat.com
 ||the-sun.com
@@ -3831,7 +3849,7 @@ iipdigital.usembassy.gov
 ||tibetwrites.org
 ||tigervpn.com
 |http://timdir.com
-|http://time.com
+||time.com
 ||timesnownews.com
 ||timtales.com
 ||blog.tiney.com
@@ -4113,6 +4131,7 @@ iipdigital.usembassy.gov
 ||vrporn.com
 ||vtunnel.com
 !--------------------WW-------------------------
+||washingtontimes.com
 ||worldjournal.com
 ||wispbyte.com
 ||walletconnect.org
@@ -4250,6 +4269,7 @@ iipdigital.usembassy.gov
 ||wuw.red
 ||wwitv.com
 !--------------------XX-------------------------
+||xuan.com.my
 ||xdaforums.com
 ||xcancel.com
 ||www.xicons.org
