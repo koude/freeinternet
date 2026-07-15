@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: Hka2YWKdTjtjDCjtBuPIFQ
+! Checksum: /NBCSbmosTGfU01A43wMwQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 27 Jun 2026 03:47:56 +0000
+! Last Modified: Wed, 15 Jul 2026 09:23:58 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -86,6 +86,7 @@
 ||eesti.ee
 ||esurance.com
 ||expekt.com
+||expressnews.com
 ||extmatrix.com
 ||fakku.net
 ||fastpic.ru
@@ -2793,6 +2794,7 @@ iipdigital.usembassy.gov
 ||lzmtnews.org
 ||leonardo.ai
 !--------------------MM-------------------------
+||mhwindow.org
 ||mas.to
 ||mjj.today
 ||mediamatters.org
@@ -4139,6 +4141,7 @@ iipdigital.usembassy.gov
 ||weights.com
 ||wikiunblocked.org
 ||websdr.org
+||webshare.io
 ||wikipedia.com
 ||wxw.moe
 ||wxw.cat
