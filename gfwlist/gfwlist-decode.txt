@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: /shSiDPOhHmTU+IBFLOPBg
+! Checksum: FljP8vF59MRFy+74IKi5aQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Wed, 22 Jul 2026 09:25:55 +0000
+! Last Modified: Mon, 27 Jul 2026 03:36:40 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1615,6 +1615,7 @@ iipdigital.usembassy.gov
 ||bwh1.net
 ||bypasscensorship.org
 !--------------------CC-------------------------
+||circle19.org
 ||clashyun.com
 ||chonglangtv.org
 ||ctinsider.com
@@ -2654,6 +2655,7 @@ iipdigital.usembassy.gov
 ||juziyue.com
 ||cdn.jwplayer.com
 !--------------------KK-------------------------
+||kards.com
 ||kfor.com
 ||kathmandupost.com
 ||kingkong.com.tw
@@ -3687,6 +3689,7 @@ iipdigital.usembassy.gov
 ||syncback.com
 ||sotwe.com
 !--------------------TT-------------------------
+||tryai.dev
 ||theintercept.com
 ||trtworld.com
 ||twstalker.com
