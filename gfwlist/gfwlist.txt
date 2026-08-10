@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 7T5tBfLgyZeIpzRdHohQjQ
+! Checksum: aKZCp2ipsFbpFDFa4RcwHg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sun, 02 Aug 2026 13:51:52 +0000
+! Last Modified: Mon, 10 Aug 2026 15:55:25 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -706,8 +706,7 @@ www.aolnews.com
 ||whatsapp.com
 ||whatsapp.net
 !!---Fandom---
-||auntology.fandom.com
-||hongkong.fandom.com
+||fandom.com
 !!---FTChinese---
 ||ftchinese.com
 !!---Google---
@@ -1275,6 +1274,9 @@ iipdigital.usembassy.gov
 ||9bis.net
 ||9news.com.au
 !--------------------AA-------------------------
+||basemaps.arcgis.com
+||experience.arcgis.com
+||aihub.top
 ||accountboy.com
 ||acg.mn
 ||asiasociety.org
@@ -1855,6 +1857,7 @@ iipdigital.usembassy.gov
 ||mike.cz.cc
 ||nic.cz.cc
 !--------------------DD-------------------------
+||divdyn.com
 ||data18.com
 ||dt18.com
 ||dns.sb
@@ -3352,6 +3355,7 @@ iipdigital.usembassy.gov
 ||quitccp.org
 |http://quran.com
 !--------------------RR-------------------------
+||esim.redteago.com
 ||restofworld.org
 ||rts.ch
 ||rawstory.com
