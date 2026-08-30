@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: bnngWWqQlVJ4MxGmXljmZA
+! Checksum: ZzjqcAV2kwlx7xF9y/sCrg
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Tue, 18 Aug 2026 11:57:04 +0000
+! Last Modified: Sun, 30 Aug 2026 14:57:02 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1453,6 +1453,7 @@ iipdigital.usembassy.gov
 !--boxun.azurewebsites.net doesn't exist.
 ||boxun*.azurewebsites.net
 !--------------------BB-------------------------
+||briarproject.org
 ||bilinovel.com
 ||boomplay.com
 ||bleepingcomputer.com
@@ -1619,6 +1620,7 @@ iipdigital.usembassy.gov
 ||bwh1.net
 ||bypasscensorship.org
 !--------------------CC-------------------------
+||chatgpt.site
 ||cht.com.tw
 ||cerebras.ai
 ||circle19.org
@@ -2218,6 +2220,7 @@ iipdigital.usembassy.gov
 ||fxcm-chinese.com
 ||f95zone.to
 !--------------------GG-------------------------
+||getmonero.org
 ||gate.com
 ||guangming.com.my
 ||g.ai
@@ -2805,6 +2808,9 @@ iipdigital.usembassy.gov
 ||lzmtnews.org
 ||leonardo.ai
 !--------------------MM-------------------------
+||historylines.net
+||kiwix.org
+||mceindex.com
 ||mhwindow.org
 ||mas.to
 ||mjj.today
@@ -3041,6 +3047,7 @@ iipdigital.usembassy.gov
 ||co.ng.mil
 ||nga.mil
 ||nhentai.net
+||nicoseiga.jp
 ||nicovideo.jp
 ||ninjaproxy.ninja
 ||niusnews.com
@@ -3078,6 +3085,7 @@ iipdigital.usembassy.gov
 ||nybooks.com
 ||nypost.com
 !--------------------OO-------------------------
+||oldmapsonline.org
 ||umap.openstreetmap.fr
 ||overdrive.com
 ||openart.ai
@@ -3454,6 +3462,8 @@ iipdigital.usembassy.gov
 ||raphael.app
 ||rule34.us
 !--------------------SS-------------------------
+||api.shuaiapi.com
+||sb.sb
 ||sysub.com
 ||sider.ai
 ||sinchew.com.my
@@ -4146,6 +4156,7 @@ iipdigital.usembassy.gov
 ||vrporn.com
 ||vtunnel.com
 !--------------------WW-------------------------
+||write.as
 ||windy.com
 ||washingtontimes.com
 ||worldjournal.com
@@ -4286,6 +4297,7 @@ iipdigital.usembassy.gov
 ||wuw.red
 ||wwitv.com
 !--------------------XX-------------------------
+||x86.fr
 ||xuan.com.my
 ||xdaforums.com
 ||xcancel.com
