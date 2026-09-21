@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 9Y4+zp/wd6P7PZ/lfjKn/w
+! Checksum: t/luIVwz4EMxR+p0xZDCSA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 28 Aug 2026 03:00:43 +0000
+! Last Modified: Mon, 21 Sep 2026 12:27:46 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -437,7 +437,6 @@
 ||tubepornclassic.com
 ||uku.im
 ||unseen.is
-||cn.uptodown.com
 ||uraban.me
 ||vrsmash.com
 ||vultryhw.com
@@ -596,37 +595,22 @@
 ||futuhkapp.com
 ||fututrade.com
 ||fututrustee.com
-||cdn.futustatic.com
 ||api.moomoobull.com
 ||moomooequity.com
 ||moomootrustee.com
 ||9oju31.launches.appsflyersdk.com
 ||sgqt0j.launches.appsflyersdk.com
 ||shortconn.im.qcloud.com
-||api.lbkrs.com
-||api-gl.lbkrs.com
 ||longbridge.cloud
 ||longbridge.sg
 ||tigerbrokers.com
 ||tigerbrokers.net
 ||tigerbrokers.nz
 ||quote.longbridge.global
-||trade.longportapp.com
-||openapi.longbridge.com
-||openapi-quote.longbridge.com
-||openapi-trade.longbridge.com
 ||openapi.longbridge.cn
 ||openapi-quote.longbridge.cn
 ||openapi-trade.longbridge.cn
 ||cg.play-analytics.com
-||qtcard.futunn.com
-||qtcardfthk.futufin.com
-||openapi.futunn.com
-||api.futunn.com
-||api5.futunn.com
-||trade.futunn.com
-||support.futunn.com
-||download.futunn.com
 !----------------Frauds & Scams-----------------
 !!---Content Farm(fake 500 error)---
 ||read01.com
@@ -1131,6 +1115,8 @@ www.aolnews.com
 ||x.com
 
 !!---Taiwan---
+||taiwanembassy.org
+||roc-taiwan.org
 ||twgov.tw
 ||gov.tw
 @@||www.gov.tw
@@ -1202,6 +1188,8 @@ iipdigital.usembassy.gov
 ||yahoo.com.hk
 ||yahoo.com
 !------------------Numerics---------------------
+||123av.me
+||123av.com
 ||18comic.vip
 ||18mh.net
 ||24hbook.com
@@ -1620,6 +1608,8 @@ iipdigital.usembassy.gov
 ||bwh1.net
 ||bypasscensorship.org
 !--------------------CC-------------------------
+||chineseposters.net
+||ctee.com.tw
 ||chatgpt.site
 ||cht.com.tw
 ||cerebras.ai
@@ -2220,6 +2210,7 @@ iipdigital.usembassy.gov
 ||fxcm-chinese.com
 ||f95zone.to
 !--------------------GG-------------------------
+||getmonero.org
 ||gate.com
 ||guangming.com.my
 ||g.ai
@@ -2359,6 +2350,8 @@ iipdigital.usembassy.gov
 ||gunsamerica.com
 |http://gvlib.com
 !--------------------HH-------------------------
+||hentai.tv
+||hkej.com
 ||hkong.hk
 ||hive.blog
 ||v2.hysteria.network
@@ -2429,7 +2422,6 @@ iipdigital.usembassy.gov
 ||hkdc.us
 ||hket.com
 ||hkfaa.com
-|https://m.hkgalden.com
 ||hkgpao.com
 ||hklts.org.hk
 ||hkmap.live
@@ -2717,6 +2709,7 @@ iipdigital.usembassy.gov
 ||kzaobao.com
 ||kzeng.info
 !--------------------LL-------------------------
+||linux.sb
 ||level-plus.net
 ||libgen.is
 ||lemonde.fr
@@ -2973,6 +2966,7 @@ iipdigital.usembassy.gov
 ||mypopescu.com
 ||myspacecdn.com
 !--------------------NN-------------------------
+||note.com
 ||nthlink.com
 ||neodb.social 
 ||nfscofficial.com
@@ -3046,6 +3040,7 @@ iipdigital.usembassy.gov
 ||co.ng.mil
 ||nga.mil
 ||nhentai.net
+||nicoseiga.jp
 ||nicovideo.jp
 ||ninjaproxy.ninja
 ||niusnews.com
@@ -3345,6 +3340,7 @@ iipdigital.usembassy.gov
 ||pximg.net
 ||python.com.tw
 !--------------------QQ-------------------------
+||quakemachinex.com
 |http://qmp4.com
 ||qianmo.tw
 ||qbittorrent.org
@@ -3363,6 +3359,7 @@ iipdigital.usembassy.gov
 ||quitccp.org
 |http://quran.com
 !--------------------RR-------------------------
+||roushuwo.com
 ||esim.redteago.com
 ||restofworld.org
 ||rts.ch
@@ -3460,6 +3457,7 @@ iipdigital.usembassy.gov
 ||raphael.app
 ||rule34.us
 !--------------------SS-------------------------
+||supjav.com
 ||api.shuaiapi.com
 ||sb.sb
 ||sysub.com
@@ -3702,6 +3700,7 @@ iipdigital.usembassy.gov
 ||syncback.com
 ||sotwe.com
 !--------------------TT-------------------------
+||taiav.com
 ||tryai.dev
 ||theintercept.com
 ||trtworld.com
@@ -4154,6 +4153,7 @@ iipdigital.usembassy.gov
 ||vrporn.com
 ||vtunnel.com
 !--------------------WW-------------------------
+||wtfpass.com
 ||write.as
 ||windy.com
 ||washingtontimes.com
@@ -4449,7 +4449,6 @@ iipdigital.usembassy.gov
 !#############Supplemental List End#############
 !################Whitelist Start################
 @@||firebase-settings.crashlytics.com
-@@||cn.investing.com
 @@||www.typepad.com
 @@||static.typepad.com
 @@||ci.android.com
