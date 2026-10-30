@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: 7nN0FE+B7xlGLITcL8hIfw
+! Checksum: KDRIBBDWyLkGy0Jwu160fQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 17 Oct 2026 13:33:07 +0000
+! Last Modified: Fri, 30 Oct 2026 05:24:27 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -37,6 +37,7 @@
 ||angela-merkel.de
 ||angola.org
 ||anthropic.com
+||anthropic.auth0.com
 ||apartmentratings.com
 ||apartments.com
 ||arena.taipei
@@ -58,6 +59,9 @@
 ||ciciai.com
 ||cici.com
 ||claude.ai
+||claude.app
+||claudeusercontent.com
+||claudemcpcontent.com
 ||clearsurance.com
 ||cnbeta.com.tw
 ||counter.social
@@ -1207,6 +1211,7 @@ iipdigital.usembassy.gov
 ||yahoo.com.hk
 ||yahoo.com
 !------------------Numerics---------------------
+||123av.org
 ||7x24hrs.com
 ||123av.me
 ||123av.com
@@ -1606,6 +1611,7 @@ iipdigital.usembassy.gov
 ||brookings.edu
 ||brutaltgp.com
 ||bsky.app
+||bsky.chat
 ||bsky.network
 ||bsky.social
 ||bt95.com
@@ -1630,6 +1636,7 @@ iipdigital.usembassy.gov
 ||bwh1.net
 ||bypasscensorship.org
 !--------------------CC-------------------------
+||console.typesafe.ai
 ||cangku.moe
 ||chineseposters.net
 ||ctee.com.tw
@@ -1998,6 +2005,7 @@ iipdigital.usembassy.gov
 ||dynawebinc.com
 ||dysfz.cc
 !--------------------EE-------------------------
+||movie.eroterest.net
 ||edigest.hk
 ||app.element.io
 ||economist.com
@@ -2637,6 +2645,7 @@ iipdigital.usembassy.gov
 ||iyouport.com
 ||iyouport.org
 !--------------------JJ-------------------------
+||ga.jspm.io
 ||javchu.com
 ||jkforum.net
 ||javfree.me
@@ -2688,6 +2697,7 @@ iipdigital.usembassy.gov
 ||juziyue.com
 ||cdn.jwplayer.com
 !--------------------KK-------------------------
+||kimootoko.net
 ||kards.com
 ||kfor.com
 ||kathmandupost.com
@@ -2833,6 +2843,7 @@ iipdigital.usembassy.gov
 ||lzmtnews.org
 ||leonardo.ai
 !--------------------MM-------------------------
+||minkch.com
 ||matichon.co.th
 ||moeli-desu.com
 ||muse.ai
@@ -3004,6 +3015,9 @@ iipdigital.usembassy.gov
 ||mypopescu.com
 ||myspacecdn.com
 !--------------------NN-------------------------
+||njavtv.com
+||njav.tv
+||njav.com
 ||nationthailand.com
 ||note.com
 ||nthlink.com
@@ -3189,6 +3203,7 @@ iipdigital.usembassy.gov
 ||ow.ly
 ||ozvoice.org
 !--------------------PP-------------------------
+||po-kaki-to.com
 ||perma.cc
 ||pcgamesn.com
 ||penguin.com.au
@@ -4442,6 +4457,7 @@ iipdigital.usembassy.gov
 ||yysub.net
 ||yzzk.com
 !--------------------ZZ-------------------------
+||zozovideo.com
 ||zenmux.ai
 ||zhangzhehan.net
 ||zaochenbao.com
