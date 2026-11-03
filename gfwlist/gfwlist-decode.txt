@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: KDRIBBDWyLkGy0Jwu160fQ
+! Checksum: N7S3WsNPqnc3MnyZqkzfIA
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 30 Oct 2026 05:24:27 +0000
+! Last Modified: Tue, 03 Nov 2026 11:32:08 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1548,6 +1548,7 @@ iipdigital.usembassy.gov
 ||bigjapanesesex.com
 ||bignews.org
 ||bild.de
+||bilibili.tv
 |http://biliworld.com
 |http://bit.do
 |http://bit.ly
@@ -3758,6 +3759,8 @@ iipdigital.usembassy.gov
 ||syncback.com
 ||sotwe.com
 !--------------------TT-------------------------
+||api.themoviedb.org
+||torrentleech.org
 ||taiav.com
 ||tryai.dev
 ||theintercept.com
@@ -4403,6 +4406,7 @@ iipdigital.usembassy.gov
 ||xxxx.com.au
 |http://xxxymovies.com
 !--------------------YY-------------------------
+||youversionapi.com
 ||yfsp.tv
 ||youmind.com
 ||yangzhi.org
