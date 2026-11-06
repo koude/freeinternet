@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: B+j/qmkEcuLUqvvaFFWjfQ
+! Checksum: ZdAd0wb0iG2fyYWCNL/t7Q
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Sat, 31 Oct 2026 05:12:41 +0000
+! Last Modified: Fri, 06 Nov 2026 02:29:19 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1548,6 +1548,7 @@ iipdigital.usembassy.gov
 ||bigjapanesesex.com
 ||bignews.org
 ||bild.de
+||bilibili.tv
 |http://biliworld.com
 |http://bit.do
 |http://bit.ly
@@ -3031,7 +3032,7 @@ iipdigital.usembassy.gov
 ||namu.wiki
 ||nirsoft.net
 ||naver.com
-||maven.neoforged.net
+||neoforged.net
 ||nftstorage.link
 ||newindianexpress.com
 ||news18.com
