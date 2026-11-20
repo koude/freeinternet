@@ -1,9 +1,9 @@
 [AutoProxy 0.2.9]
-! Checksum: ZdAd0wb0iG2fyYWCNL/t7Q
+! Checksum: 6VkkARnUYys9bCfUvkVaxQ
 ! Expires: 6h
 ! Title: GFWList4LL
 ! GFWList with EVERYTHING included
-! Last Modified: Fri, 06 Nov 2026 02:29:19 +0000
+! Last Modified: Fri, 20 Nov 2026 03:36:24 +0000
 !
 ! HomePage: https://github.com/gfwlist/gfwlist
 ! License: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
@@ -1211,6 +1211,7 @@ iipdigital.usembassy.gov
 ||yahoo.com.hk
 ||yahoo.com
 !------------------Numerics---------------------
+||51papaya.com
 ||123av.org
 ||7x24hrs.com
 ||123av.me
@@ -1882,6 +1883,7 @@ iipdigital.usembassy.gov
 ||mike.cz.cc
 ||nic.cz.cc
 !--------------------DD-------------------------
+||duck.ai
 ||dh.net
 ||divdyn.com
 ||data18.com
@@ -2244,6 +2246,7 @@ iipdigital.usembassy.gov
 ||fxcm-chinese.com
 ||f95zone.to
 !--------------------GG-------------------------
+||gamma.app
 ||c.go-mpulse.net
 ||getmonero.org
 ||gate.com
@@ -2268,7 +2271,6 @@ iipdigital.usembassy.gov
 ||gabocorp.com
 ||gagaoolala.com
 ||galenwu.com
-||game735.com
 |http://wiki.gamerp.jp
 ||gamer.com.tw
 ||gamez.com.tw
@@ -3515,6 +3517,7 @@ iipdigital.usembassy.gov
 ||raphael.app
 ||rule34.us
 !--------------------SS-------------------------
+||soulogic.com
 ||sing-box.sagernet.org
 ||supjav.com
 ||api.shuaiapi.com
